@@ -12,5 +12,12 @@ public enum TipoGastoEnum {
 
     TipoGastoEnum(String descricao) {
         this.descricao = descricao;
+
     }
+
+    public String toString() {
+        return descricao;
+    }
+
+
 }
